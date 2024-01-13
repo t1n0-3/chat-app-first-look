@@ -1,0 +1,59 @@
+/* Integrated CSS */
+.right-chat {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: fixed;
+  display: flex;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 60px;
+  background-color: #aaa9af;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.friends-option li {
+  background-color: blanchedalmond;
+  margin: 5px;
+  margin-left: -5px;
+  padding: 5px 0;
+  border-radius: 4px;
+
+  transition: 0.5s;
+}
+
+/* Styles for the friend list */
+.friend-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.friend-list li {
+  margin-right: 10px;
+  font-size: 14px;
+  text-align: center;
+
+  background-color: rgb(115, 83, 36);
+  margin: 5px;
+  margin-left: -5px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.friend-list li:hover {
+  border-radius: 17px;
+  color: black;
+  background-color: #ddd;
+}
+
+.friend-list img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 5px;
+}

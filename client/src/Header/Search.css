@@ -1,0 +1,21 @@
+/* Additional styles for the search form */
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.searchInput {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 5px;
+}
+
+.search-form button {
+  padding: 5px 5px;
+  border-radius: 5px;
+  background-color: #277cfb;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

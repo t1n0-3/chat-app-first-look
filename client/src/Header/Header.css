@@ -1,0 +1,40 @@
+/* Reset default margin and padding */
+nav,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Style the navbar */
+nav {
+
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style the navbar links */
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  padding: 10px 6px;
+  transition: all 0.3s ease;
+  line-height: 40px;
+  /* Adjust the line height according to your design */
+}
+
+nav ul li a:hover {
+  background-color: #ddd;
+  color: #1a1212;
+  border-radius: 5px;
+}
